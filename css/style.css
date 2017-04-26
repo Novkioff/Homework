@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Exo-Thin;
+    src: url('../fonts/exo-thin.ttf');,
+    font-family: Exo-Regular;
+    src: url('../fonts/exo-regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 0;
+    background-color: #ffffff;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: inherit;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.wrapper {
+    max-width: 1440px;
+}
+
+header {
+    width: 100%;
+    background: url("../img/header_bgd.jpg") no-repeat center;
+}
