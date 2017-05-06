@@ -33,6 +33,8 @@ ul li {
 
 .wrapper {
     width: 100%;
+    max-width: 2000px;
+    min-width: 960px;
     margin: 0 auto;
 }
 
@@ -78,6 +80,7 @@ header div a:hover {
 }
 
 header p {
+    font-family: Exo-Thin;
     font-size: 11px;
     color: #8c8c8f;
     margin-top: 20px;
@@ -86,6 +89,7 @@ header p {
 .sec1 {
     width: 100%;
     font-family: Exo-Thin;
+    height: 725px;
 }
 
 .left_side {
@@ -96,7 +100,7 @@ header p {
     padding-top: 190px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 131px;
+
 }
 
 .sec1 h3 {
@@ -115,7 +119,7 @@ header p {
 
 .sec1 h2 span {
     color: #ff6d6d;
-    font-size: 40px;
+    font-size: 57px;
 }
 
 .sec1 p {
@@ -123,12 +127,35 @@ header p {
     line-height: 26px;
     color: #8a8a8a;
     margin-top: 38px;
-    font-family: "Times New Roman";
+    font-family: Times New Roman;
 }
 
 .right_side {
     float: left;
     width: 40%;
     box-sizing: border-box;
-    pa
+    height: 725px;
+    background-color: #ececec;
+    position: relative;
+    overflow: hidden;
 }
+
+.rose_block {
+    height:150%;
+    background-color: #fb8686;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(55deg);
+    transform-origin: bottom left;
+}
+
+.sec2 {
+    width: 100%;
+    height: 844px;
+    background-image: url("../img/sec2_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   background-position: 0% 0%;
+}
+
